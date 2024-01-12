@@ -1,0 +1,52 @@
+[
+  {
+    "ID": 12345,
+    "Cover": "fake_cover_1.jpg",
+    "Title": "The Enigmatic Odyssey",
+    "Author": "Crystal Mystique",
+    "AuthorImg": "author_img_1.jpg",
+    "PostedDate": "2024-01-12",
+    "PostedTime": "15:30:00",
+    "Hashtags": ["#MysticalJourney", "#FantasyAdventure"]
+  },
+  {
+    "ID": 67890,
+    "Cover": "fake_cover_2.jpg",
+    "Title": "Whispers of Eternity",
+    "Author": "Shadow Weaver",
+    "AuthorImg": "author_img_2.jpg",
+    "PostedDate": "2024-01-12",
+    "PostedTime": "18:45:00",
+    "Hashtags": ["#EternalWhispers", "#DarkFantasy"]
+  },
+  {
+    "ID": 13579,
+    "Cover": "fake_cover_3.jpg",
+    "Title": "Quantum Chronicles",
+    "Author": "Nova Voyager",
+    "AuthorImg": "author_img_3.jpg",
+    "PostedDate": "2024-01-12",
+    "PostedTime": "12:15:00",
+    "Hashtags": ["#SciFiAdventure", "#TimeTravel"]
+  },
+  {
+    "ID": 24680,
+    "Cover": "fake_cover_4.jpg",
+    "Title": "Celestial Harmony",
+    "Author": "Luna Serenade",
+    "AuthorImg": "author_img_4.jpg",
+    "PostedDate": "2024-01-12",
+    "PostedTime": "21:00:00",
+    "Hashtags": ["#CelestialVibes", "#MysticMelodies"]
+  },
+  {
+    "ID": 97531,
+    "Cover": "fake_cover_5.jpg",
+    "Title": "Codebreakers' Conundrum",
+    "Author": "Cipher Master",
+    "AuthorImg": "author_img_5.jpg",
+    "PostedDate": "2024-01-12",
+    "PostedTime": "14:20:00",
+    "Hashtags": ["#CodeMystery", "#PuzzleAdventure"]
+  }
+]
