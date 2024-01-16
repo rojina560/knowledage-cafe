@@ -1,14 +1,20 @@
 
 import './App.css'
-import Blogs from './Components/Blog/Blogs'
+
+import Blogs from './Components/Blogs/Blogs';
+import Bookmarks from './Components/Bookmarks/Bookmarks';
+import Header from './Components/Header/Header';
 
 function App() {
   return (
     <>
-      <h1 className='text-3xl text-center'>react knowledge cafe</h1>
+    <Header></Header>
+      <div className='md:flex'>
       <Blogs></Blogs>
+        <Bookmarks></Bookmarks>
+      </div>
     </>
-  )
+  );
 }
 
 export default App
