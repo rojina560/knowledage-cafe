@@ -9,13 +9,19 @@ import Header from './Components/Header/Header';
 function App() {
   const [bookmarks, setBookmarks] = useState([]);
   const [readingTime, setReadingTime] = useState(0)
-  const handleMarkAsRead = time => {
-   setReadingTime(readingTime + time)
-  }
+  const handleMarkAsRead = (ID,time) => {
+    setReadingTime(readingTime + time);
+    console.log("remove", ID);
+    const reamingBookmarks = bookmarks.filter(bookmark => bookmark.ID !== ID);
+    setBookmarks(reamingBookmarks)
+    
+  };
+   
   const handleAddToBookmarks = blog => {
     const newBookmarks = [...bookmarks, blog];
     setBookmarks(newBookmarks)
   }
+   
   return (
     <>
       <Header></Header>
@@ -24,7 +30,8 @@ function App() {
           handleAddToBookmarks={handleAddToBookmarks}
           handleMarkAsRead={handleMarkAsRead}
         ></Blogs>
-        <Bookmarks bookmarks={bookmarks} readingTime ={readingTime}></Bookmarks>
+        <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks>
+      
       </div>
     </>
   );

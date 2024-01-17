@@ -4,7 +4,7 @@
 
 
 const Blog = ({ blog, handleAddToBookmarks, handleMarkAsRead }) => {
-  const { Title, Cover, Author, AuthorImg, PostedDate, read_time, Hashtags } =
+  const {ID,Title, Cover, Author, AuthorImg, PostedDate, read_time, Hashtags } =
     blog;
   return (
     <div>
@@ -27,7 +27,7 @@ const Blog = ({ blog, handleAddToBookmarks, handleMarkAsRead }) => {
         </div>
       </div>
       <h1>title: {Title}</h1>
-      <button onClick={() => handleMarkAsRead(read_time)}>mark as read</button>
+      <button onClick={() => handleMarkAsRead(ID,read_time)}>mark as read</button>
       <p>
         {Hashtags.map((hash) => (
           <span className="text-blue-400">
